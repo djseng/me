@@ -24,12 +24,12 @@
     - Help triage and route UAT feedback
 
 #### App Moderization
-- Jul 2024 - Oct 2024
+- Jul 2024 - Oct 2024 · 3 mos
 
     - Port application stored procedures to api endpoints. Assisted with code review and pull requests. Setup CI/CD to automate importing generated openapi spec to APIM instance (Api Management)
 
 ### Internal Chat Bot
-- Jun 2024 - 1 mo
+- Jun 2024 · 1 mo
 
     - POC internal chat with you data agent in MS Teams so that sales could ask questions regarding prior engagements. Included setting up a Vector Database in Azure AI Search.
 
@@ -90,3 +90,22 @@
 - Websoft, Inc. Feb 1998 - May 2001 · 3 yrs 4 mos
 
    Websoft is where I got my start as a Developer. This is where I learned classic ASP and I picked it up quickly. This company was only a small start up and was eventually dissolved during the big market drop in the late '90s. Eventually I was the sole developer, working from home, and I gave it up for a more stable environment.
+
+## Certifications
+
+### *AZ-204* Microsoft Certified: Azure Developer Associate
+Jan 2025
+
+### *AI-102* Microsoft Certified: Azure AI Engineer Associate
+Jun 2024
+
+### *AI-900* Microsoft Certified: Azure AI Fundamentals
+Jun 2024
+
+### *AZ-900* Microsoft Certified: Azure Fundamentals
+May 2024
+
+## Education
+
+BS - Computer Science · 2003
+Illinois State University
