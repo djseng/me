@@ -1,0 +1,59 @@
+name: Deploy Jekyll site to Pages
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Build site
+        run: bundle exec jekyll build
+
+        # Generate PDF from resume.md
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
+      - name: Generate PDF
+        run: |
+          md-to-pdf resume.md --pdf-options '{\"format\": \"A4\", \"margin\": \"20mm\", \"printBackground\": true}'
+      - name: Copy PDF to _site
+        run: cp resume.pdf _site/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 
