@@ -4,30 +4,75 @@
 
 ## Experience
 
+### Architect - Software Engineering
+- 3Cloud Solutions - May 2023 - Present · 2 yrs
+- Promotion
+
+#### Modern Integration Platform
+- Oct 2024 - March 2024 · 6mos
+
+    - Designed C# durable functions for various integration processes.
+        - Split PDFs by defined business rules
+        - Invoice extraction using Azure Document Inteligence
+        - Excel Document merge
+        - Timer, Event Grid and Http Trigger
+    - Led a small team of offshore developer
+    - Did requirement discovery and design review sessions
+    - Generated a backlog and split into iterations for the PM
+    - Assisted with various infrastructure and CI/CD problems
+    - Implemented CI/CD for automated APIM import
+    - Help triage and route UAT feedback
+
+#### App Moderization
+- Jul 2024 - Oct 2024
+
+    - Port application stored procedures to api endpoints. Assisted with code review and pull requests. Setup CI/CD to automate importing generated openapi spec to APIM instance (Api Management)
+
+### Internal Chat Bot
+- Jun 2024 - 1 mo
+
+    - POC internal chat with you data agent in MS Teams so that sales could ask questions regarding prior engagements. Included setting up a Vector Database in Azure AI Search.
+
+#### Transcription Service
+- Apr 2024 - May 2024 · 2 mos
+
+    - Supported UAT problem resolution. Created an administration UI using asp.net mvc and HTMX
+
+### Senior Application Engineer - .NET
+- 3Cloud Solutions (Procured Polaris Solutions) Nov 2021 - Apr 2023 · 1 yr 4 mos
+
+    - In the procurement, I maintained my last engagement from Polaris Solutions.
+
 ### Senior Developer
 - Polaris Solutions Oct 2010 - Oct 2021 · 11 yrs 2 mos
 
-### App Moderization and green field development
-- TODO
+#### App Moderization and green field development
+- Apr 2019 - Apr 2024 · 5 yrs
 
-   - App Moderization for a legacy .net web forms application. Moving up to .net48. Migration to Microsoft Dependency Injection from a hand rolled container. Increased unit test coverage. Migrated classic release pipelines to `yml` pipelines.
+   - Implemented and supported a large microservice based application that ran in Kubernetes hosted in Azure. The primary means of communication between the backend components was via KAFKA. Additional technologies included linux, mongo db, docker, graphana and open telemetry.
+
+   The project began in net5.0 and I was responsible for migrating to net6.0. It also started in github and I assisted with migrating to gitlab, including creating debugging CI/CD problems.
+
+   I maintained a portability layer which imported greenfield application in to the legacy system of truth. This involved ensure records landed in a legacy DB/2 system.
+
+   I maintained a large solution that contained git submodules to more easily manage cross cutting concerns in the project. Helped move from nuget package based message contracts to APIOPs based contracts. Helped in planning and design sessions further in the project.
 
    - Added bridge support for an in house CMS system to assist with an inflight migration process. This included surfacing a new API protected by  an inhouse IdentityServer Token Based Authentication.
 
-   - Implemented and supported a large microservice based application that ran in Kubernetes. The primary means of communication between the backend components was via KAFKA. Additional technologies included linux, mongo db, docker, graphana and open telemetry. The project began in net5.0 and I was responsible for migrating to net6.0. It also started in github and I assisted with migrating to gitlab, including creating debugging CI/CD problems. I maintained a large solution that contained git submodules to more easily manage cross cutting concerns in the project. Helped move from nuget package based message contracts to APIOPs based contracts. Helped in planning and design sessions further in the project.
+   - App Moderization for a legacy .net web forms application. Moving up to .net48. Migration to Microsoft Dependency Injection from a hand rolled container. Increased unit test coverage. Migrated classic release pipelines to `yml` pipelines.
 
 #### Angular Application Feature Enhancement
-- TODO
+- Jan 2019 - May 2019 · 5 mo
 
     Feature enhancement for a small angular application that was primarily used to schedule teams on onsite construction jobs.
 
 #### Application Modernization
-- Sep 2011 - TODO
+- Sep 2011 - Dec 2018 · 7 yrs 2 mos
 
     App Moderization, coverting a health insurance portal from classic asp to ASP.net MVC. Worked on a small term, using scrum. Developing and maintained a large SOA architecture; the backend technology was WCF, and sql server additionaly an inhouse CMS system for the frontend team. I developed an ETL application to pull data from iSeries DB/2 to a sql server instance. I maintained a local instance of Team Foundation Server.
 
 #### Windows CE Application Maintainer
-- Oct 2010 - Aug 2011 · 1 yr
+- Oct 2010 - Aug 2011 · 10 mos
 
     I maintained a small scanner application that synchronized data with a propietary database (SAGE). This included feature development and bug investigation in a C# codebase and local SQL Compact database.
 
