@@ -29,8 +29,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build site
         run: bundle exec jekyll build
-
-        # Generate PDF from resume.md
+      # Generate PDF from resume.md
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -38,8 +37,7 @@ jobs:
       - name: Install md-to-pdf
         run: npm install -g md-to-pdf
       - name: Generate PDF
-        run: |
-          md-to-pdf resume.md --pdf-options '{\"format\": \"A4\", \"margin\": \"20mm\", \"printBackground\": true}'
+        run: md-to-pdf resume.md
       - name: Copy PDF to _site
         run: cp resume.pdf _site/
       - name: Upload artifact
