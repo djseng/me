@@ -37,7 +37,7 @@ jobs:
       - name: Install md-to-pdf
         run: npm install -g md-to-pdf
       - name: Generate PDF
-        run: md-to-pdf resume.md
+        run: md-to-pdf resume.md --no-sandbox
       - name: Copy PDF to _site
         run: cp resume.pdf _site/
       - name: Upload artifact
