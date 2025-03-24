@@ -10,6 +10,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Include directories
+include:
+  - assets
+  - assets/css
+
 # Exclude from processing
 exclude:
   - Gemfile
