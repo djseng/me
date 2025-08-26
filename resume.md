@@ -4,7 +4,7 @@
 ---
 
 ## Professional Summary
-Experienced Software Engineering Architect with over 20 years in designing and implementing modern, scalable solutions using .NET, Azure, and microservices. Skilled in leading teams, modernizing legacy systems, and optimizing CI/CD pipelines. Certified Azure Developer and AI Engineer with a proven track record in integration platforms, application modernization, and cloud-based solutions.
+Experienced Software Engineer with over 20 years in designing and implementing modern, scalable solutions using .NET, Azure, and microservices. Skilled in leading teams, modernizing legacy systems, and optimizing CI/CD pipelines. Certified Azure Developer and AI Engineer with a proven track record in integration platforms, application modernization, and cloud-based solutions.
 
 ---
 
