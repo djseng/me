@@ -96,8 +96,8 @@ Experienced Software Engineering Architect with over 20 years in designing and i
 
 ## Technical Skills
 - **Languages:** C#, T-SQL, ecmascript/javascript, typescript
-- **Frameworks/Platforms:** .NET (9.0), ASP.NET MVC, WCF, Angular
+- **Frameworks/Platforms:** .NET (9.0), ASP.NET MVC, WCF, Angular, HTMX
 - **Cloud:** Azure (Durable Functions, Document Intelligence, AI Search, APIM), Kubernetes
 - **DevOps:** CI/CD, GitHub Actions, GitLab, TFS, YAML Pipelines
 - **Databases:** SQL Server, MongoDB, DB/2, SQL Compact  
-- **Tools:** Kafka, Docker, Grafana, OpenTelemetry, HTMX, IdentityServer  
+- **Tools:** Kafka, Docker, Grafana, OpenTelemetry, IdentityServer  
