@@ -1,103 +1,87 @@
 # David Seng
-**Email:** david@hessian.dev | **Location:** Bloomington, IL | **LinkedIn:** [in/dave-seng](https://www.linkedin.com/in/dave-seng)
+**Senior Software Engineer | .NET, Azure, Application Modernization**
 
----
+**Email:** david@hessian.dev | **Location:** Bloomington, IL (remote US) | **LinkedIn:** [in/dave-seng](https://www.linkedin.com/in/dave-seng)
 
 ## Professional Summary
-Experienced Software Engineer with over 20 years in designing and implementing modern, scalable solutions using .NET, Azure, and microservices. Skilled in leading teams, modernizing legacy systems, and optimizing CI/CD pipelines. Certified Azure Developer and AI Engineer with a proven track record in integration platforms, application modernization, and cloud-based solutions.
-
----
+Remote US .NET/Azure engineer with more than 25 years of hands-on software development experience; my current title is Architect, but my day-to-day work is senior individual-contributor engineering: designing, building, reviewing, and maintaining the services I work on. Recent work includes agent-assisted implementation and review on a large enterprise .NET monorepo, performance work, and delivery with Azure Durable Functions, Document Intelligence, API Management, and AI Search.
 
 ## Professional Experience
 
-### **Architect - Software Engineering**  
-**3Cloud Solutions** | May 2023 – Present | 2 yrs  
-*Promoted from Senior Application Engineer*  
-- Spearhead architecture and development of cloud-native solutions using C#, Azure, and modern integration tools.
+### **3Cloud Solutions**
+**Architect - Software Engineering** | May 2023 – Present · 3 yrs 4 mos<br>
+**Senior Application Engineer - .NET** | Nov 2021 – Apr 2023 · 1 yr 4 mos
 
-#### **Modern Integration Platform** | Oct 2023 – Mar 2024 | 6 mos  
-- Designed C# Durable Functions for integration workflows, including PDF splitting, invoice extraction (Azure Document Intelligence), Excel merging, and triggers (Timer, Event Grid, HTTP).  
-- Led an offshore development team, conducted requirement discovery, and facilitated design reviews.  
-- Built and prioritized a backlog, collaborating with PMs to define iterations.  
-- Implemented CI/CD pipelines for automated APIM imports and resolved infrastructure challenges.  
-- Triaged and routed UAT feedback to ensure quality delivery.
+*3Cloud acquired Polaris Solutions in November 2021. I continued the same long-running client engagement through the acquisition and moved into the Architect role in May 2023.*
 
-#### **Application Modernization** | Jul 2024 – Oct 2024 | 3 mos  
-- Converted stored procedures to API endpoints, enhancing scalability; supported code reviews and PRs.  
-- Automated OpenAPI spec imports to APIM via CI/CD pipelines.
+#### **Large Enterprise .NET Platform** | 2025 – Present
+- Use coding agents for implementation and code review in a Big 4 client's large enterprise monorepo while remaining accountable for the resulting code.
+- Maintain and improve the existing platform, including .NET runtime and SQL performance investigation.
 
-#### **Internal Chat Bot (POC)** | Jun 2024 | 1 mo  
-- Deployed a Teams-integrated chatbot using Azure AI Search and Vector Database, enabling sales teams to query SOW contracts.
+#### **Application Modernization** | Jul 2024 – Oct 2024 · 3 mos
+- Ported stored procedures to C# API endpoints and supported code reviews and pull requests.
+- Automated OpenAPI specification imports into Azure API Management through CI/CD.
 
-#### **Transcription Service** | Apr 2024 – May 2024 | 2 mos  
-- Built an ASP.NET MVC and HTMX-based admin UI; resolved UAT issues.
+#### **Internal Chatbot POC** | Jun 2024 · 1 mo
+- Built a Teams-integrated RAG chatbot so sales staff could ask questions about prior statements of work, backed by vector search in Azure AI Search.
 
----
+#### **Transcription Service** | Apr 2024 – May 2024 · 2 mos
+- Built an administration UI with ASP.NET MVC and HTMX and resolved UAT issues.
 
-### **Senior Application Engineer - .NET**  
-**3Cloud Solutions (via Polaris Solutions acquisition)** | Nov 2021 – Apr 2023 | 1 yr 4 mos  
-- Continued key engagements post-acquisition, delivering robust .NET solutions.
+#### **Modern Integration Platform** | Oct 2023 – Mar 2024 · 6 mos
+- Built C# Durable Functions that split PDFs by business rules, extracted invoice data with Azure Document Intelligence, merged Excel documents, and ran from Timer, Event Grid, and HTTP triggers.
+- Implemented CI/CD automation for OpenAPI imports into Azure API Management and helped resolve infrastructure and delivery pipeline issues.
+- Led a small offshore development team through requirements discovery, design reviews, backlog planning, and UAT triage.
 
----
+#### **Application Modernization and Greenfield Development** | Apr 2019 – Apr 2024 · 5 yrs
+*(Polaris engagement continued through the 3Cloud acquisition)*
 
-### **Senior Developer**  
-**Polaris Solutions** | Oct 2010 – Oct 2021 | 11 yrs 2 mos  
+- Implemented and supported microservices running on Kubernetes in Azure, using Kafka for backend messaging alongside MongoDB, Docker, Grafana, and OpenTelemetry.
+- Migrated services from .NET 5 to .NET 6 and helped move source and CI/CD from GitHub to GitLab, including diagnosing pipeline and Kustomize issues.
+- Maintained a portability layer that synchronized greenfield applications with a legacy DB2 system of record.
+- Maintained a large solution that used Git submodules for cross-cutting concerns and helped move message contracts from NuGet packages to an APIOps model.
+- Built an API bridge to an in-house CMS, protected by IdentityServer, during an active migration.
+- Modernized a legacy Web Forms application to .NET Framework 4.8, replaced a custom dependency injection container with Microsoft.Extensions.DependencyInjection, increased unit test coverage, and moved classic release pipelines to YAML.
 
-#### **Application Modernization & Greenfield Development** | Apr 2019 – Apr 2024 | 5 yrs  
-- Implemented a microservices application on Kubernetes in Azure, leveraging Kafka, MongoDB, Docker, Grafana, and OpenTelemetry. Debugged issues in an IAC Kustomize repository
-- Migrated from .NET 5.0 to 6.0 and transitioned from GitHub to GitLab, debugging CI/CD issues.  
-- Conducted and provided feedback on many pull requests.
-- Maintained a portability layer syncing greenfield apps with a legacy DB/2 system.  
-- Enhanced cross-cutting concerns using git submodules and shifted from NuGet to APIOps contracts.  
-- Integrated an in-house CMS via a new API with IdentityServer authentication.  
-- Modernized a .NET Web Forms app to .NET 4.8, adopting MS Dependency Injection and increased unit test coverage.
+### **Polaris Solutions**
+**Senior Developer** | Oct 2010 – Oct 2021 · 11 yrs 2 mos
 
-#### **Angular Application Feature Enhancement** | Jan 2019 – May 2019 | 5 mos  
-- Enhanced an Angular app for construction team scheduling, improving usability and functionality.
+#### **Angular Application Feature Enhancement** | Jan 2019 – May 2019 · 5 mos
+- Enhanced an Angular application used to schedule teams for on-site construction work.
 
-#### **Application Modernization** | Sep 2011 – Dec 2018 | 7 yrs 2 mos  
-- Converted a health insurance portal from Classic ASP to ASP.NET MVC within a Scrum team.  
-- Implemented a large SOA architecture with WCF, SQL Server, and an in-house CMS.
-- Built an ETL tool to migrate data from iSeries DB/2 to SQL Server; managed TFS locally.
+#### **Health Insurance Portal Modernization** | Sep 2011 – Dec 2018 · 7 yrs 2 mos
+- Modernized a health insurance portal from Classic ASP to ASP.NET MVC as part of a small Scrum team.
+- Developed and maintained a service-oriented backend using WCF and SQL Server, integrated with an in-house CMS used by the frontend team.
+- Built an ETL application that moved data from iSeries DB2 to SQL Server and maintained the team's on-premises Team Foundation Server.
 
-#### **Windows CE Application Maintenance** | Oct 2010 – Aug 2011 | 10 mos  
-- Maintained a C# scanner app with SQL Compact, syncing data to a SAGE database.
+#### **Windows CE Scanner Application** | Oct 2010 – Aug 2011 · 10 mos
+- Maintained and extended a C# scanner application with a local SQL Server Compact database that synchronized with a proprietary SAGE database.
 
----
+### **PII**
+**Web Developer** | Jun 2001 – Sep 2010 · 9 yrs 4 mos
+- Developed and migrated web applications from Classic ASP and VBScript to server-side JScript and ASP.NET.
+- Maintained SQL Server stored procedures and designed databases and complex reports in T-SQL.
+- Built and deployed a WebSphere lead-prospecting web service over an AS/400 iSeries DB2 database with another developer.
+- Supported priority clients and later worked from the company's Dutch office.
 
-### **Web Developer**  
-**PII** | Jun 2001 – Sep 2010 | 9 yrs 4 mos  
-- Developed and migrated websites from Classic ASP/VBScript to JScript and ASP.NET.
-- Maintained many SQL Stored Procedures, designed databases and complex reports in T-SQL.
-- Built a WebSphere lead/prospecting web service on an AS/400 iSeries DB2 database, collaborating with a team.  
-- Focused on priority clients, adapting to emerging technologies like ASP.NET.
-
----
-
-### **Web Developer**  
-**Websoft, Inc.** | Feb 1998 – May 2001 | 3 yrs 4 mos  
-- Learned and applied Classic ASP/MS Access as a developer for a startup, delivering web solutions until its dissolution.
-
----
+### **Websoft, Inc.**
+**Web Developer** | Feb 1998 – May 2001 · 3 yrs 4 mos
+- Developed Classic ASP and Microsoft Access applications for a small startup, eventually serving as its sole developer.
 
 ## Certifications
-- **AZ-204: Microsoft Certified Azure Developer Associate** | Jan 2025  
-- **AI-102: Microsoft Certified Azure AI Engineer Associate** | Jun 2024  
-- **AI-900: Microsoft Certified Azure AI Fundamentals** | Jun 2024  
-- **AZ-900: Microsoft Certified Azure Fundamentals** | May 2024  
-
----
+- **AZ-204: Microsoft Certified Azure Developer Associate** | Jan 2025
+- **AI-102: Microsoft Certified Azure AI Engineer Associate** | Jun 2024
+- **AI-900: Microsoft Certified Azure AI Fundamentals** | Jun 2024
+- **AZ-900: Microsoft Certified Azure Fundamentals** | May 2024
 
 ## Education
-**BS - Computer Science** | 2003  
+**BS, Computer Science** | 2003<br>
 **Illinois State University**
 
----
-
 ## Technical Skills
-- **Languages:** C#, T-SQL, ecmascript/javascript, typescript
-- **Frameworks/Platforms:** .NET (9.0), ASP.NET MVC, WCF, Angular, HTMX
-- **Cloud:** Azure (Durable Functions, Document Intelligence, AI Search, APIM), Kubernetes
-- **DevOps:** CI/CD, GitHub Actions, GitLab, TFS, YAML Pipelines
-- **Databases:** SQL Server, MongoDB, DB/2, SQL Compact  
-- **Tools:** Kafka, Docker, Grafana, OpenTelemetry, IdentityServer  
+- **Languages:** C#, T-SQL, JavaScript, TypeScript
+- **Frameworks:** .NET through .NET 9, ASP.NET MVC, Web Forms, WCF, Angular, HTMX
+- **Azure:** Durable Functions, Document Intelligence, AI Search, API Management, Event Grid
+- **Data:** SQL Server, MongoDB, DB2/iSeries, SQL Server Compact
+- **Platform:** Docker, Kubernetes, Kustomize, Kafka, Grafana, OpenTelemetry, IdentityServer
+- **Delivery:** GitHub Actions, GitLab CI/CD, Team Foundation Server, YAML pipelines, APIOps
