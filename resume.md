@@ -54,8 +54,8 @@ Remote US .NET/Azure engineer with more than 25 years of hands-on development, 1
 - **BS, Computer Science**, Illinois State University, 2003
 
 ## Technical Skills
-- **Languages & Frameworks:** C#, T-SQL, TypeScript, PowerShell; .NET 8/9, ASP.NET Core, EF Core, Angular 21, React
-- **Azure & Data:** Application Insights, Bicep, Durable Functions, Document Intelligence, AI Search, API Management, SQL Server, MongoDB, DB2
+- **Languages & Frameworks:** C#, TypeScript, JavaScript, T-SQL, PowerShell; .NET 8/9, ASP.NET Core, EF Core, Node.js, Angular 21, React
+- **Azure & Data:** Application Insights, Bicep, Durable Functions, Document Intelligence, AI Search, API Management, SQL Server, MySQL, MongoDB, DB2
 - **Platform & Delivery:** Azure DevOps Pipelines, GitHub Actions, GitLab CI/CD, Docker, Kubernetes, Kafka, OpenTelemetry, Vite
 - **AI-Assisted Development:** Cursor, GitHub Copilot, Azure and Azure DevOps MCP servers, AI pull request review workflows
 - **Git & Environment:** Git (worktrees, submodules, rebase, history rewrites, migrations), Linux, Bash
